@@ -1,0 +1,42 @@
+
+$fn=60;
+
+// grouping for printing
+difference() {
+    // body
+    translate([0, 0, 0])
+    cube([35, 115, 51], true);
+
+    // top cutoff
+    translate([0, 0, 27])
+    rotate([15,0,0])
+    cube([37, 150, 30], true);
+
+    // inner cutoff
+    translate([8, -8, 17])
+    cube([35, 107.5, 25], true);
+    translate([8, -28, 5])
+    rotate([15,0,0])
+    cube([35, 50, 25], true);
+
+    // front cutoff
+    translate([0, -80, -20])
+    rotate([15,0,0])
+    cube([37, 50, 25], true);
+
+    // back cutoff
+    translate([0, 80, 20])
+    rotate([15,0,0])
+    cube([37, 50, 25], true);
+
+    // keyboard cutoff
+    translate([4.5, 0, 0])
+    rotate([15,0,0])
+    cube([35, 107.5, 15], true);
+
+    // cable cutoff
+    translate([9, 53, 13])
+    rotate([15,0,0])
+    cube([18, 10, 9], true);
+}
+
