@@ -30,10 +30,10 @@ union(){
     difference(){
         // housing fitting
         hull() {
-            translate([2.70, 1.88, 0])   cylinder(6.5, 1, 1, true);
-            translate([-2.70, 1.88, 0])  cylinder(6.5, 1, 1, true);
-            translate([2.70, -1.88, 0])  cylinder(6.5, 1, 1, true);
-            translate([-2.70, -1.88, 0]) cylinder(6.5, 1, 1, true);
+            translate([2.50, 1.68, 0])   cylinder(6.5, 1, 1, true);
+            translate([-2.50, 1.68, 0])  cylinder(6.5, 1, 1, true);
+            translate([2.50, -1.68, 0])  cylinder(6.5, 1, 1, true);
+            translate([-2.50, -1.68, 0]) cylinder(6.5, 1, 1, true);
         }
         // cross fitting cutoff
         cube([4.5, 1.29, 10], true);
