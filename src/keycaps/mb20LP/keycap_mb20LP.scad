@@ -1,5 +1,6 @@
 
 // Define higher resolution for transformations
+
 $fn=60;
 
 union() {
@@ -20,7 +21,7 @@ union() {
 
     // fitting support
     color("#FF7F50")
-    translate([0, 0, 3.5])
+    translate([0, 0, 3.25])
     difference(){
         // housing fitting
         hull() {
